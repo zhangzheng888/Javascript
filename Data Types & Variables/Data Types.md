@@ -12,5 +12,3 @@ Javascript has seven primitive data types:
 `Symbol`
 `BigInt`
 
-
-Pro Tip: Remember these with the acronym BUNNSS (just ignore BigInt for now)
