@@ -7,4 +7,4 @@ Null	"object"	N/A
 
 | Type              | typeof return value | Object wrapper |
 | :---------------- | :-----------------: | :------------: |
-| Null              |   True   			  | N/A |
+| Null              | object   			  | N/A 		   |
