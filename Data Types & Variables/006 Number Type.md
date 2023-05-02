@@ -27,4 +27,4 @@ Note: Although bitwise operators can be used to represent several Boolean values
 
 | Type              | typeof return value | Object wrapper |
 | :---------------- | :-----------------: | :------------: |
-| Number            | number   		      | Number 	 	   |
+| Number            | `"number"`   		  | `Number` 	   |

@@ -7,4 +7,4 @@ Boolean values are usually used for conditional operations, including ternary op
 
 | Type              | typeof return value | Object wrapper |
 | :---------------- | :-----------------: | :------------: |
-| Boolean           | boolean   		  | Boolean 	   |
+| Boolean           | `"boolean"`   	  | `Boolean` 	   |
