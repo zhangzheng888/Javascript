@@ -1,4 +1,4 @@
-# Data property
+# Data Property
 Data properties associate a key with a value. It can be described by the following attributes:
 
 `value`
