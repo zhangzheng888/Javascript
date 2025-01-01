@@ -3,14 +3,32 @@ If there is a need to match one value against many options, you can use a `switc
 Here is an example of a switch statement:
 
 ```
-switch (fruit) {
-  case "apple":
-    console.log("The fruit is an apple");
+function caseInSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+  switch (val) {
+  case 1:
+    answer = "alpha"
+    console.log(answer);
     break;
-  case "orange":
-    console.log("The fruit is an orange");
+  case 2:
+    answer = "beta"
+    console.log(answer);
     break;
+  case 3:
+    answer = "gamma"
+    console.log(answer);
+    break;
+  case 4:
+    answer = "delta"
+    console.log(answer);
+    break;
+  }
+  // Only change code above this line
+  return answer;
 }
+
+caseInSwitch(1);
 ```
 
 `case` values are tested with strict equality (`===`). The `break` tells JavaScript to stop executing statements. If the `break` is omitted, the next statement will be executed.
