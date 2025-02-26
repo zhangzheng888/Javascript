@@ -48,10 +48,8 @@ const contacts = [
           return "No such property";
         }
       }
-      else {
-        return "No such contact";
-      }
     }
+    return "No such contact";
   }
   
 lookUpProfile("Akira", "likes"); // ["Pizza", "Coding", "Brownie Points"]
