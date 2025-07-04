@@ -20,3 +20,23 @@ romanNumerals.push(twentyThree);
 
 `romanNumerals` would have the value `['XIX', 'XX', 'XXI', 'XXII', 'XXIII']`. Notice that we can also pass variables, which allows us
 even greater flexibility in dynamically modifying our array's data.
+
+```
+function mixedNumbers(arr) {
+
+  let unshiftArray = ['three', 2, 'I'];
+  unshiftArray.forEach(item => {
+    arr.unshift(item);
+  });
+  let pushArray = [7, 'VIII', 9];
+  pushArray.forEach(item => {
+    arr.push(item);
+  });
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+```
+
+// console output
+`[ 'I', 2, 'three', 'IV', 5, 'six', 7, 'VIII', 9 ]`
