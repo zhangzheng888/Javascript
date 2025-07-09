@@ -17,3 +17,13 @@ The second occurrence of `12` is removed, and we add `13` and `14` at the same i
 Here, we begin with an array of numbers. Then, we pass the following to `splice()`: The index at which to begin deleting elements 
 `(3)`, the number of elements to be deleted `(1)`, and the remaining arguments `(13, 14)` will be inserted starting at that same index. 
 Note that there can be any number of elements (separated by commas) following `amountToDelete`, each of which gets inserted.
+
+We have defined a function, `htmlColorNames`, which takes an array of HTML colors as an argument. Modify the function using `splice()`
+to remove the first two elements of the array and add `'DarkSalmon'` and `'BlanchedAlmond'` in their respective places.
+
+```
+function htmlColorNames(arr) {
+  arr.splice(0, 2, 'DarkSalmon', 'BlanchedAlmond');
+  return arr;
+}
+```
