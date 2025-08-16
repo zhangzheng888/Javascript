@@ -21,6 +21,18 @@ function confirmEnding(str, target) {
     return false;
 }
 
+// Alternative solution using slice method
+function confirmEndingWithSlice(str, target) {
+    // Use the slice method to extract the end of the string
+    var strLength = str.length;
+    var targetLength = target.length;
+    var startIndex = strLength - targetLength;
+    // Extract the substring from the end of the string
+    var endSubstring = str.slice(startIndex);
+    // Check if the extracted substring matches the target
+    return endSubstring === target;
+}
+
 
 
 confirmEnding('Bastian', 'n');
