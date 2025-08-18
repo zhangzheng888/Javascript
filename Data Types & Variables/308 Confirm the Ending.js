@@ -33,6 +33,16 @@ function confirmEndingWithSlice(str, target) {
     return endSubstring === target;
 }
 
+// Another way to check exact string match
+function confirmEndingExact(str, target) {
+    // Use the lastIndexOf method to find the position of the target
+    var lastIndex = str.lastIndexOf(target);
+    // Check if the target is at the end of the string
+    if (lastIndex !== -1 && lastIndex === str.length - target.length) {
+        return true;
+    }
+    return false;
+}
 
 
 confirmEnding('Bastian', 'n');
