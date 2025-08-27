@@ -19,3 +19,6 @@ function repeatStringNumTimes(str, num) {
 
 repeatStringNumTimes('abc', 3);
 // Should return 'abcabcabc'.
+
+repeatStringNumTimes("*", 3);
+// Should return the string '***'.
