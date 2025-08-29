@@ -25,3 +25,6 @@ repeatStringNumTimes("*", 3);
 
 repeatStringNumTimes("abc", -2)
 // Should return an empty string ''.
+
+repeatStringNumTimes("abc", 0)
+// Should return an empty string ''.
