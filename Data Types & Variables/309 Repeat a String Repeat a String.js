@@ -4,17 +4,18 @@ Return an empty string if num is not a positive number.
 For the purpose of this challenge, do not use the built-in .repeat() method.
 */
 
-function repeatStringNumTimes(str, num) {
-    for (var i = 0; i < num; i++) {
-        // If num is less than or equal to 0, return an empty string
-        if (num <= 0) {
-            return '';
-        }
-        // Concatenate the string to itself num times
-        str += str;
+function repeatStringNumTimes(str, num) {    
+    if (num <= 0) {
+        return '';
     }
-    // Return the final repeated string
-    return str
+
+    let result = '';
+    for (let i = 0; i < num; i++) {
+        result += str;
+    }
+
+    return result;
+
 }
 
 repeatStringNumTimes('abc', 3);
@@ -28,3 +29,6 @@ repeatStringNumTimes("abc", -2)
 
 repeatStringNumTimes("abc", 0)
 // Should return an empty string ''.
+
+repeatStringNumTimes("*", 8)
+// Should return the string '********'.
