@@ -13,3 +13,6 @@ function truncateString(str, num) {
 
 truncateString('A-tisket a-tasket A green and yellow basket', 8);
 // Should return 'A-tisket...'.
+
+truncateString("Peter Piper picked a peck of pickled peppers", 11);
+// Should return 'Peter Piper...'.
