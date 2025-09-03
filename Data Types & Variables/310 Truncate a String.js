@@ -19,3 +19,6 @@ truncateString("Peter Piper picked a peck of pickled peppers", 11);
 
 truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length);
 // Should return 'A-tisket a-tasket A green and yellow basket'.
+
+truncateString("A-", 1);
+// Should return 'A...'.
