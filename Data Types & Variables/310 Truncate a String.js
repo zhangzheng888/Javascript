@@ -22,3 +22,6 @@ truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket
 
 truncateString("A-", 1);
 // Should return 'A...'.
+
+truncateString("Absolutely Longer", 2);
+// Should return 'Ab...'.
