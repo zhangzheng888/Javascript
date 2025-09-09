@@ -13,3 +13,6 @@ function booWho(bool) {
 
 booWho(null);
 // Should return false.
+
+booWho(true);
+// Should return true.
