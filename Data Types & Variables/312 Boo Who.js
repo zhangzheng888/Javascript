@@ -16,3 +16,6 @@ booWho(null);
 
 booWho(true);
 // Should return true.
+
+booWho([1, 2, 3]);
+// Should return false.
