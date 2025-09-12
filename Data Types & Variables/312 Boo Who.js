@@ -19,3 +19,6 @@ booWho(true);
 
 booWho([1, 2, 3]);
 // Should return false.
+
+booWho([].slice);
+// Should return false.
