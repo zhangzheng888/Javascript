@@ -28,3 +28,6 @@ booWho({ "a": 1 });
 
 booWho(1);
 // Should return false.
+
+booWho(NaN);
+// Should return false.
