@@ -31,3 +31,6 @@ booWho(1);
 
 booWho(NaN);
 // Should return false.
+
+booWho("true");
+// Should return false.
