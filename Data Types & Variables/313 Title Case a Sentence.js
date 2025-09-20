@@ -11,3 +11,6 @@ function titleCase(str) {
     }
     return words.join(' ');
 }
+
+titleCase("I'm a little tea pot");
+// should return "I'm A Little Tea Pot"
