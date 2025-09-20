@@ -14,3 +14,6 @@ function titleCase(str) {
 
 titleCase("I'm a little tea pot");
 // should return "I'm A Little Tea Pot"
+
+titleCase("sHoRt AnD sToUt");
+// should return "Short And Stout"
