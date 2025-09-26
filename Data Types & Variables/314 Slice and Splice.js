@@ -15,3 +15,6 @@ function frankenSplice(arr1, arr2, n) {
     }
     return newArr;
 }
+
+frankenSplice([1, 2, 3], [4, 5], 1);
+// should return [4, 1, 2, 3, 5]
