@@ -15,3 +15,6 @@ function bouncer(arr) {
   }
   return newArr;
 }
+
+bouncer([7, "ate", "", false, 9]);
+// Should return [7, "ate", 9].
