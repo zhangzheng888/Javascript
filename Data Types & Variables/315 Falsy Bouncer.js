@@ -18,3 +18,6 @@ function bouncer(arr) {
 
 bouncer([7, "ate", "", false, 9]);
 // Should return [7, "ate", 9].
+
+bouncer(["a", "b", "c"]);
+// Should return ["a", "b", "c"].
