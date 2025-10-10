@@ -21,3 +21,6 @@ bouncer([7, "ate", "", false, 9]);
 
 bouncer(["a", "b", "c"]);
 // Should return ["a", "b", "c"].
+
+bouncer([false, null, 0, NaN, undefined, ""]);
+// Should return [].
