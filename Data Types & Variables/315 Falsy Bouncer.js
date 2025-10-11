@@ -24,3 +24,6 @@ bouncer(["a", "b", "c"]);
 
 bouncer([false, null, 0, NaN, undefined, ""]);
 // Should return [].
+
+bouncer([null, NaN, 1, 2, undefined]);
+// Should return [1, 2].
