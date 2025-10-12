@@ -16,6 +16,11 @@ function bouncer(arr) {
   return newArr;
 }
 
+// Alternative solution using filter method
+// function bouncer(arr) {
+//   return arr.filter(Boolean);
+// }
+
 bouncer([7, "ate", "", false, 9]);
 // Should return [7, "ate", 9].
 
