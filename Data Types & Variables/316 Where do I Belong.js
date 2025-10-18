@@ -16,3 +16,6 @@ function getIndexToIns(arr, num) {
 
 getIndexToIns([40, 60], 50);
 // Should return 1.
+
+getIndexToIns([10, 20, 30, 40, 50], 35);
+// Should return 3.
