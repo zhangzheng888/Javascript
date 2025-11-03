@@ -34,3 +34,6 @@ getIndexToIns([2, 20, 10], 19);
 
 getIndexToIns([2, 5, 10], 15);
 // Should return 3.
+
+getIndexToIns([], 1);
+// Should return 0.
