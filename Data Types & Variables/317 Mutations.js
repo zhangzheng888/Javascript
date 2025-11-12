@@ -19,3 +19,6 @@ function mutation(arr) {
     }
     return true;
 }
+
+mutation(["hello", "hey"]);
+// Should return false.
