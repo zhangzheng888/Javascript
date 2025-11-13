@@ -22,3 +22,6 @@ function mutation(arr) {
 
 mutation(["hello", "hey"]);
 // Should return false.
+
+mutation(["hello", "Hello"]);
+// Should return true.
