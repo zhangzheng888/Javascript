@@ -31,3 +31,6 @@ mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]);
 
 mutation(["Mary", "Army"]);
 // Should return true.
+
+mutation(["Mary", "Aarmy"]);
+// Should return true.
