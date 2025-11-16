@@ -34,3 +34,6 @@ mutation(["Mary", "Army"]);
 
 mutation(["Mary", "Aarmy"]);
 // Should return true.
+
+mutation(["Alien", "line"]);
+// Should return true.
