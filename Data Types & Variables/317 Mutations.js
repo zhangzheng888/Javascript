@@ -40,3 +40,6 @@ mutation(["Alien", "line"]);
 
 mutation(["floor", "for"]);
 // Should return true.
+
+mutation(["hello", "neo"]);
+// Should return false.
