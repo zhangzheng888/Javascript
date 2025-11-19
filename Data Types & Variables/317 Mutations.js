@@ -43,3 +43,6 @@ mutation(["floor", "for"]);
 
 mutation(["hello", "neo"]);
 // Should return false.
+
+mutation(["voodoo", "no"]);
+// Should return false.
