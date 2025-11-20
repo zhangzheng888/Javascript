@@ -46,3 +46,6 @@ mutation(["hello", "neo"]);
 
 mutation(["voodoo", "no"]);
 // Should return false.
+
+mutation(["ate", "date"]);
+// Should return false.
