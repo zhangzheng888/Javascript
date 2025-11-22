@@ -52,3 +52,6 @@ mutation(["ate", "date"]);
 
 mutation(["Tiger", "Zebra"]);
 // Should return false.
+
+mutation(["Noel", "Ole"]);
+// Should return true.
