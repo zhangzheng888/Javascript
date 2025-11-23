@@ -20,6 +20,17 @@ function mutation(arr) {
     return true;
 }
 
+// Alternative solution using every() method
+/*
+function mutation(arr) {
+    let first = arr[0].toLowerCase();
+    let second = arr[1].toLowerCase();
+    return second.split('').every(function(letter) {
+        return first.indexOf(letter) !== -1;
+    });
+}
+*/
+
 mutation(["hello", "hey"]);
 // Should return false.
 
