@@ -4,5 +4,9 @@ length of size (second argument) and returns them as a two-dimensional array.
 */
 
 function chunkArrayInGroups(arr, size) {
-  return arr;
+    let result = [];
+    for (let i = 0; i < arr.length; i += size) {
+        result.push(arr.slice(i, i + size));
+    }
+    return result;
 }
