@@ -10,3 +10,6 @@ function chunkArrayInGroups(arr, size) {
     }
     return result;
 }
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
+// Should return [["a", "b"], ["c", "d"]].
