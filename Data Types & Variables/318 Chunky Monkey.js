@@ -13,3 +13,6 @@ function chunkArrayInGroups(arr, size) {
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 // Should return [["a", "b"], ["c", "d"]].
+
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3);
+// Should return [[0, 1, 2], [3, 4, 5]].
