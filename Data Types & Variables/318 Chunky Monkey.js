@@ -16,3 +16,6 @@ chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
 chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3);
 // Should return [[0, 1, 2], [3, 4, 5]].
+
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2);
+// Should return [[0, 1], [2, 3], [4, 5]].
