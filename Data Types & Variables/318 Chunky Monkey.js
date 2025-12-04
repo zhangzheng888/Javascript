@@ -11,6 +11,19 @@ function chunkArrayInGroups(arr, size) {
     return result;
 }
 
+// Alternative solution using while loop:
+/*
+function chunkArrayInGroups(arr, size) {
+    let result = [];
+    let i = 0;
+    while (i < arr.length) {
+        result.push(arr.slice(i, i + size));
+        i += size;
+    }
+    return result;
+}
+*/
+
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 // Should return [["a", "b"], ["c", "d"]].
 
