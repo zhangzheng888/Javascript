@@ -16,3 +16,8 @@ This duck object has two property/value pairs: a name of Aflac and a numLegs of 
 
 Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
 */
+
+let dog = {
+  name: "Buddy",
+  numLegs: 4
+};
