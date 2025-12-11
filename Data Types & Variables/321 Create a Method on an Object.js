@@ -17,6 +17,7 @@ cover another way to do this.
 let dog = {
   name: "Buddy",
   numLegs: 4,
-  sayName: function() {return "The name of this dog is " + dog.name + ".";}
+  sayName: function() {return "The name of this dog is " + dog.name + ".";},
+  sayLegs: function() {return "This dog has " + dog.numLegs + " legs.";}
 };
 
