@@ -32,3 +32,5 @@ let dog = {
 };
 
 dog.sayLegs();
+
+// Should return "This dog has 4 legs."
