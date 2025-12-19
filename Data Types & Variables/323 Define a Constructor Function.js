@@ -27,3 +27,9 @@ function Dog() {
   this.color = "brown";
   this.numLegs = 4;
 }
+
+// Example output
+let myDog = new Dog();
+console.log(myDog.name); // Should return "Spot"
+console.log(myDog.color); // Should return "brown"
+console.log(myDog.numLegs); // Should return 4  
