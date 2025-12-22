@@ -26,3 +26,13 @@ Just like any other object, its properties can be accessed and modified:
 
 blueBird.name = 'Elvira';
 blueBird.name;
+
+/*
+Use the Dog constructor from the last lesson to create a new instance of Dog, assigning it to a variable hound.
+*/
+
+function Dog() {
+    this.name = "Spot";
+    this.color = "brown";
+    this.numLegs = 4;
+}
