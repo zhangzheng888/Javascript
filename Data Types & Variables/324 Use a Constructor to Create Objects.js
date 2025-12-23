@@ -32,7 +32,7 @@ Use the Dog constructor from the last lesson to create a new instance of Dog, as
 */
 
 function Dog() {
-    this.name = "Spot";
+    this.name = "Rupert";
     this.color = "brown";
     this.numLegs = 4;
 }
