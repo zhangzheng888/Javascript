@@ -36,3 +36,12 @@ function Dog() {
     this.color = "brown";
     this.numLegs = 4;
 }
+
+let hound = new Dog();
+// Example output
+console.log(hound.name); // Should return "Rupert"
+console.log(hound.color); // Should return "brown"
+console.log(hound.numLegs); // Should return 4
+
+hound.name = "Max";
+console.log(hound.name); // Should return "Max"
