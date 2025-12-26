@@ -45,3 +45,5 @@ console.log(hound.numLegs); // Should return 4
 
 hound.name = "Max";
 console.log(hound.name); // Should return "Max"
+hound.color = "black";
+console.log(hound.color); // Should return "black"
