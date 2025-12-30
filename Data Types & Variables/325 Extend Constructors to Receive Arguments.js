@@ -47,3 +47,8 @@ function Dog(name, color) {
 }
 
 let terrier = new Dog("Buddy", "white");
+
+// Example output
+console.log(terrier.name); // Should return "Buddy"
+console.log(terrier.color); // Should return "white"
+console.log(terrier.numLegs); // Should return 4
