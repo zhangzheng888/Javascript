@@ -41,6 +41,8 @@ let House = function(numBedrooms) {
 
 let myHouse = new House(3);
 
+myHouse instanceof House;
+
 // Example output
 console.log(myHouse.numBedrooms); // Should return 3
 console.log(myHouse instanceof House); // Should return true
