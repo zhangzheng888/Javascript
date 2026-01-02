@@ -30,5 +30,17 @@ canary instanceof Bird;
 
 /*
 This instanceof method would return false.
+
+Create a new instance of the House constructor, calling it myHouse and passing a number of bedrooms. 
+Then, use instanceof to verify that it is an instance of House.
 */
 
+let House = function(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+
+let myHouse = new House(3);
+
+// Example output
+console.log(myHouse.numBedrooms); // Should return 3
+console.log(myHouse instanceof House); // Should return true
