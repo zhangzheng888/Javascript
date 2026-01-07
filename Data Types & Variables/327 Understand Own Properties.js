@@ -32,10 +32,10 @@ The console would display the value ["name", "numLegs"].
 Add the own properties of canary to the array ownProps.
 */
 
-function Bird(name) {
-  this.name = name;
-  this.numLegs = 2;
-}
+let canaryProps = [];
 
-let cacaw = new Bird("Grinchy");
-let cacawProps = [];
+for (let property in canary) {
+  if(canary.hasOwnProperty(property)) {
+    canaryProps.push(property);
+  }
+}
