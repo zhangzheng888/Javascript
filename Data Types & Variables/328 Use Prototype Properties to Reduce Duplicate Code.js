@@ -20,3 +20,11 @@ console.log(canary.numLegs);
 Since all instances automatically have the properties on the prototype, think of a prototype as a "recipe" for creating objects. 
 Note that the prototype for duck and canary is part of the Bird constructor as Bird.prototype.
 */
+
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
