@@ -25,6 +25,9 @@ function Dog(name) {
   this.name = name;
 }
 
+//Add a numLegs property to the prototype of Dog
 Dog.prototype.numLegs = 4;
 
 let beagle = new Dog("Snoopy");
+
+console.log(beagle.numLegs);
