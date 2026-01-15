@@ -31,3 +31,4 @@ Dog.prototype.numLegs = 4;
 let beagle = new Dog("Snoopy");
 
 console.log(beagle.numLegs);
+// console would display 4
