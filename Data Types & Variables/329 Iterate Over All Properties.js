@@ -28,3 +28,9 @@ for (let property in duck) {
 
 console.log(ownProps);
 console.log(prototypeProps);
+
+// console.log(ownProps) would display ["name"] in the console, and console.log(prototypeProps) would display ["numLegs"].
+
+/*
+Add all of the own properties of beagle to the array ownProps. Add all of the prototype properties of Dog to the array prototypeProps.
+*/
