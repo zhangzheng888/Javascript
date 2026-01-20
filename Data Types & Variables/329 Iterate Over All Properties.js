@@ -45,3 +45,11 @@ let beagle = new Dog("Snoopy");
 
 let ownTestProps = [];
 let prototypeTestProps = [];
+
+for (let property in beagle) {
+  if(beagle.hasOwnProperty(property)) {
+    ownTestProps.push(property);
+  } else {
+    prototypeTestProps.push(property);
+  }
+}
