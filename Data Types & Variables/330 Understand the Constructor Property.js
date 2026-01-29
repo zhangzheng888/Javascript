@@ -43,3 +43,6 @@ function joinDogFraternity(candidate) {
     return false;
   }
 }
+
+console.log(joinDogFraternity(new Dog("Snoopy")));
+// Returns true
