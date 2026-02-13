@@ -14,3 +14,9 @@ duck inherits its prototype from the Bird constructor function. You can show thi
 */
 
 Bird.prototype.isPrototypeOf(duck);
+
+/*
+This would return true.
+
+Use isPrototypeOf to check the prototype of beagle.
+*/
