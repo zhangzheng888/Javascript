@@ -14,3 +14,8 @@ is Object.prototype:
 */
 
 Object.prototype.isPrototypeOf(Bird.prototype);
+
+// How is this useful? You may recall the hasOwnProperty method from a previous challenge:
+
+let duck = new Bird("Donald");
+duck.hasOwnProperty("name");
