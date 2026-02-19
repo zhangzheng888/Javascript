@@ -28,3 +28,11 @@ for all objects in JavaScript. Therefore, any object can use the hasOwnProperty 
 
 Modify the code to show the correct prototype chain.
 */
+
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle); 
