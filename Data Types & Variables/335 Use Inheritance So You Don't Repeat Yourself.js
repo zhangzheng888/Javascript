@@ -5,3 +5,16 @@ change requires fixing code in multiple places. This usually means more work for
 Notice in the example below that the describe method is shared by Bird and Dog:
 */
 
+Bird.prototype = {
+  constructor: Bird,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+
+Dog.prototype = {
+  constructor: Dog,
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
