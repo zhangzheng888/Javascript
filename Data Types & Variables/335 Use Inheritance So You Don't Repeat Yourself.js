@@ -18,3 +18,8 @@ Dog.prototype = {
     console.log("My name is " + this.name);
   }
 };
+
+/*
+The describe method is repeated in two places.
+The code can be edited to follow the DRY principle by creating a supertype (or parent) called Animal:
+*/
