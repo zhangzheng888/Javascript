@@ -35,3 +35,10 @@ Animal.prototype = {
 
 // Since Animal includes the describe method, you can remove it from Bird and Dog:
 
+Bird.prototype = {
+  constructor: Bird
+};
+
+Dog.prototype = {
+  constructor: Dog
+};
