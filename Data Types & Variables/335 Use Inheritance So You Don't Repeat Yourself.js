@@ -32,3 +32,6 @@ Animal.prototype = {
     console.log("My name is " + this.name);
   }
 };
+
+// Since Animal includes the describe method, you can remove it from Bird and Dog:
+
