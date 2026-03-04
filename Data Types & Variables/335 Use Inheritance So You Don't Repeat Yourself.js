@@ -73,5 +73,7 @@ function Animal() { }
 
 Animal.prototype = {
   constructor: Animal,
-
+  eat: function() {
+    console.log("nom nom nom");
+  }
 };
