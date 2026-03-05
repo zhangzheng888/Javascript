@@ -64,9 +64,6 @@ function Bear(name) {
 
 Bear.prototype = {
   constructor: Bear,
-  eat: function() {
-    console.log("nom nom nom");
-  }
 };
 
 function Animal() { }
