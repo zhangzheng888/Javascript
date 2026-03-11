@@ -14,3 +14,10 @@ You already know one way to create an instance of Animal using the new operator:
 */
 
 let animal = new Animal();
+
+/*
+There are some disadvantages when using this syntax for inheritance, which are too complex for the scope of this challenge. 
+Instead, here's an alternative approach without those disadvantages:
+*/
+
+let animal2 = Object.create(Animal.prototype);
