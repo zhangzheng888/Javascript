@@ -27,3 +27,8 @@ Object.create(obj) creates a new object, and sets obj as the new object's protot
 "recipe" for creating an object. By setting the prototype of animal to be the prototype of Animal, you are effectively giving 
 the animal instance the same "recipe" as any other instance of Animal.
 */
+
+animalNew.eat();
+animalNew instanceof Animal;
+
+// The instanceof method here would return true.
