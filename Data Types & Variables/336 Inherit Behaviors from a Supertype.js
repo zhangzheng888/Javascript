@@ -36,3 +36,4 @@ animalNew instanceof Animal;
 // Use Object.create to make two instances of Animal named duck and beagle.
 
 let duck = Object.create(Animal.prototype);
+let beagle = Object.create(Animal.prototype);
