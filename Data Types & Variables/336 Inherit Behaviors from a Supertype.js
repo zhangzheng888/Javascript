@@ -34,3 +34,5 @@ animalNew instanceof Animal;
 // The instanceof method here would return true.
 
 // Use Object.create to make two instances of Animal named duck and beagle.
+
+let duck = Object.create(Animal.prototype);
