@@ -6,3 +6,11 @@ This challenge covers the next step: set the prototype of the subtype (or child)
 */
 
 Bird.prototype = Object.create(Animal.prototype);
+
+/*
+Remember that the prototype is like the "recipe" for creating an object. In a way, the recipe for Bird now includes all the
+ key "ingredients" from Animal.
+*/
+
+let duck = new Bird("Donald");
+duck.eat();
