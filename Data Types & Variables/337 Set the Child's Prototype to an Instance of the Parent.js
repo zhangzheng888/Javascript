@@ -14,3 +14,22 @@ Remember that the prototype is like the "recipe" for creating an object. In a wa
 
 let duck = new Bird("Donald");
 duck.eat();
+
+/*
+duck inherits all of Animal's properties, including the eat method.
+
+Modify the code so that instances of Dog inherit from Animal.
+*/
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Dog() { }
+
+let beagle = new Dog();
