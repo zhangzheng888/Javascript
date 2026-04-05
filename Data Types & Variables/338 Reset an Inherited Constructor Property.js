@@ -14,3 +14,5 @@ But duck and all instances of Bird should show that they were constructed by Bir
 you can manually set the constructor property of Bird to the Bird object:
 */
 
+Bird.prototype.constructor = Bird;
+duck.constructor;
