@@ -18,3 +18,7 @@ Bird.prototype.constructor = Bird;
 In addition to what is inherited from Animal, you want to add behavior that is unique to Bird objects. Here, Bird will 
 get a fly() function. Functions are added to Bird's prototype the same way as any constructor function:
 */
+
+Bird.prototype.fly = function() {
+  console.log("I'm flying!");
+};
