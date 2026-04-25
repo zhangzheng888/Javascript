@@ -22,3 +22,9 @@ get a fly() function. Functions are added to Bird's prototype the same way as an
 Bird.prototype.fly = function() {
   console.log("I'm flying!");
 };
+
+// Now instances of Bird will have both eat() and fly() methods:
+
+let duck = new Bird();
+duck.eat();
+duck.fly();
