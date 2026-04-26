@@ -37,3 +37,10 @@ add a bark() method to the Dog object so that beagle can both eat() and bark(). 
 the console.
 */
 
+function Dog() { 
+  
+}
+
+
+let beagle = new Dog();
+
