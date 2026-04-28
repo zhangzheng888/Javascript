@@ -37,10 +37,16 @@ add a bark() method to the Dog object so that beagle can both eat() and bark(). 
 the console.
 */
 
-function Dog() { 
-  
-}
+function Dog() { }
 
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+Dog.prototype.bark = function() {
+  console.log("Woof!");
+};
 
 let beagle = new Dog();
 
+beagle.eat();
+beagle.bark();
