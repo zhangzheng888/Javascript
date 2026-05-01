@@ -4,3 +4,10 @@ referencing its prototype object:
 */
 
 ChildObject.prototype = Object.create(ParentObject.prototype);
+
+/*
+Then the ChildObject received its own methods by chaining them onto its prototype:
+*/
+
+ChildObject.prototype.methodName = function() {...};
+
