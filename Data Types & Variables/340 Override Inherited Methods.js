@@ -35,4 +35,16 @@ duck => Is eat() defined here? No.
 Bird => Is eat() defined here? => Yes. Execute it and stop searching.
 Animal => eat() is also defined, but JavaScript stopped searching before reaching this level.
 Object => JavaScript stopped searching before reaching this level.
+
+Override the fly() method for Penguin so that it returns the string Alas, this is a flightless bird.
 */
+
+Bird.prototype.fly = function() { return "I am flying!"; };
+
+function Penguin() { }
+Penguin.prototype = Object.create(Bird.prototype);
+Penguin.prototype.constructor = Penguin;
+
+
+let penguin = new Penguin();
+console.log(penguin.fly());
