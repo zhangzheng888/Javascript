@@ -5,3 +5,9 @@ solution. Inheritance does not work well for unrelated objects like Bird and Air
 
 For unrelated objects, it's better to use mixins. A mixin allows other objects to use a collection of functions.
 */
+
+let flyMixin = function(obj) {
+  obj.fly = function() {
+    console.log("Flying, wooosh!");
+  }
+};
