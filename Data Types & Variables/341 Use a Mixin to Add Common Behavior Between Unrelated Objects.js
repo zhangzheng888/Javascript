@@ -11,3 +11,18 @@ let flyMixin = function(obj) {
     console.log("Flying, wooosh!");
   }
 };
+
+// The flyMixin takes any object and gives it the fly method.
+
+let bird = {
+  name: "Donald",
+  numLegs: 2
+};
+
+let plane = {
+  model: "777",
+  numPassengers: 524
+};
+
+flyMixin(bird);
+flyMixin(plane);
