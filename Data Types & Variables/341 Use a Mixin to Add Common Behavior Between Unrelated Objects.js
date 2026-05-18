@@ -26,3 +26,6 @@ let plane = {
 
 flyMixin(bird);
 flyMixin(plane);
+
+// Here bird and plane are passed into flyMixin, which then assigns 
+// the fly function to each object. Now bird and plane can both fly:
