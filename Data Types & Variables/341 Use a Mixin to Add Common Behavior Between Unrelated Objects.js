@@ -32,3 +32,4 @@ flyMixin(plane);
 
 bird.fly();
 plane.fly();
+
