@@ -33,3 +33,8 @@ flyMixin(plane);
 bird.fly();
 plane.fly();
 
+/*
+The console would display the string Flying, wooosh! twice, once for each .fly() call.
+
+Note how the mixin allows for the same fly method to be reused by unrelated objects bird and plane.
+*/
