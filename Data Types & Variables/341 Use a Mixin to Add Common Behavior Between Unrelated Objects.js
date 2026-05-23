@@ -42,3 +42,7 @@ Create a mixin named glideMixin that defines a method named glide. Then use the 
 and boat the ability to glide.
 */
 
+let boat = {
+  name: "Warrior",
+  type: "race-boat"
+};
