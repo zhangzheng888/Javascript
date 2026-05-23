@@ -46,3 +46,12 @@ let boat = {
   name: "Warrior",
   type: "race-boat"
 };
+
+let glideMixin = function(obj) {
+  obj.glide = function() {
+    console.log("Glide, wooosh!");
+  }
+};
+
+glideMixin(bird);
+glideMixin(boat);
