@@ -55,3 +55,6 @@ let glideMixin = function(obj) {
 
 glideMixin(bird);
 glideMixin(boat);
+
+bird.glide();
+boat.glide();
