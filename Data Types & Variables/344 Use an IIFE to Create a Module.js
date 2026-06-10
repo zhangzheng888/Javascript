@@ -40,3 +40,5 @@ other parts of your code. Here is an example using it:
 
 motionModule.glideMixin(duck);
 duck.glide();
+
+// Create a module named funModule to wrap the two mixins isCuteMixin and singMixin. funModule should return an object.
