@@ -37,3 +37,6 @@ This returned object contains all of the mixin behaviors as properties of the ob
 module pattern is that all of the motion behaviors can be packaged into a single object that can then be used by 
 other parts of your code. Here is an example using it:
 */
+
+motionModule.glideMixin(duck);
+duck.glide();
