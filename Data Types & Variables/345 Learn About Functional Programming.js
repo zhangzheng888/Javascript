@@ -13,7 +13,7 @@ Functions with limited side effects - any changes, or mutations, to the state of
 are carefully controlled
 
 The prepareTea and getTea functions are already defined for you. Call the getTea function to get 
-40 cups of tea for the team, and store them in the tea4TeamFCC variable.
+20 cups of tea for the team, and store them in the tea4Me variable.
 */
 
 // Function that returns a string representing a cup of green tea
@@ -34,5 +34,4 @@ const getTea = (numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
-const tea4TeamFCC = null;
+const tea4Me = getTea(20);
