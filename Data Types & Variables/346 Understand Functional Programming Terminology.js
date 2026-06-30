@@ -46,8 +46,8 @@ const getTea = (prepareTea, numOfCups) => {
   return teaCups;
 };
 
-const tea4GreenTea = null;
-const tea4BlackTea = null;
+const tea4GreenTea = getTea(prepareGreenTea, 27);
+const tea4BlackTea = getTea(prepareBlackTea, 13);
 
 console.log(
   tea4GreenTea,
