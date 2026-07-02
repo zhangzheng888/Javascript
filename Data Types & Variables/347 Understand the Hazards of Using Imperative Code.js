@@ -12,14 +12,23 @@ In contrast, functional programming is a form of declarative programming. You te
 by calling a method or function.
 
 JavaScript offers many predefined methods that handle common tasks so you don't need to write out how the computer 
-should perform them. For example, instead of using the for loop mentioned above, you could call the map method which handles the details of iterating over an array. This helps to avoid semantic errors, like the "Off By One Errors" that were covered in the Debugging section.
+should perform them. For example, instead of using the for loop mentioned above, you could call the map method which 
+handles the details of iterating over an array. This helps to avoid semantic errors, like the "Off By One Errors" that 
+were covered in the Debugging section.
 
 Consider the scenario: you are browsing the web in your browser, and want to track the tabs you have opened. Let's 
 try to model this using some simple object-oriented code.
 
 A Window object is made up of tabs, and you usually have more than one Window open. The titles of each open site in 
-each Window object is held in an array. After working in the browser (opening new tabs, merging windows, and closing tabs), you want to print the tabs that are still open. Closed tabs are removed from the array and new tabs (for simplicity) get added to the end of it.
+each Window object is held in an array. After working in the browser (opening new tabs, merging windows, and closing 
+tabs), you want to print the tabs that are still open. Closed tabs are removed from the array and new tabs (for 
+simplicity) get added to the end of it.
 
 The code editor shows an implementation of this functionality with functions for tabOpen(), tabClose(), and join(). 
 The array tabs is part of the Window object that stores the name of the open pages.
+
+Examine the code in the editor. It's using a method that has side effects in the program, causing incorrect behavior. 
+The final list of open tabs, stored in finalTabs.tabs, should be ['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 
+'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab'] but the list produced 
+by the code is slightly different.
 */
