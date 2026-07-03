@@ -31,4 +31,6 @@ Examine the code in the editor. It's using a method that has side effects in the
 The final list of open tabs, stored in finalTabs.tabs, should be ['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 
 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab'] but the list produced 
 by the code is slightly different.
+
+Change Window.prototype.tabClose so that it removes the correct tab.
 */
