@@ -34,3 +34,8 @@ by the code is slightly different.
 
 Change Window.prototype.tabClose so that it removes the correct tab.
 */
+
+// tabs is an array of titles of each site open within the window
+const Window = function(tabs) {
+  this.tabs = tabs; // We keep a record of the array inside the object
+};
