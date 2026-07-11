@@ -60,8 +60,6 @@ Window.prototype.tabClose = function(index) {
 
   this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // Join them together
 
-  // Only change code above this line
-
   return this;
  };
 
