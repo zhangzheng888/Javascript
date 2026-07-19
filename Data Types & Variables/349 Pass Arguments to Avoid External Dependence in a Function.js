@@ -15,4 +15,8 @@ and you can see where the potential traps are.
 
 Finally, the function would always produce the same output for the same set of inputs, no matter what part of the code 
 executes it.
+
+Let's update the incrementer function to clearly declare its dependencies.
+
+Write the incrementer function so it takes an argument, and then returns a result after increasing the value by one.
 */
