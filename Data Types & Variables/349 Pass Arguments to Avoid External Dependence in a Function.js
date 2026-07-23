@@ -24,6 +24,6 @@ Write the incrementer function so it takes an argument, and then returns a resul
 // The global variable
 let fixedValue = 4;
 
-function incrementer() {
-    
+function incrementer(value) {
+  return value + 1;
 }
