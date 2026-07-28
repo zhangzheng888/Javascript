@@ -17,3 +17,11 @@ the given bookName from the array passed to it.
 
 Note: Both functions should return an array, and any new parameters should be added before the bookName parameter.
 */
+
+// The global variable
+const bookList = [
+    "The Hound of the Baskervilles", 
+    "On The Electrodynamics of Moving Bodies", 
+    "Philosophiæ Naturalis Principia Mathematica", 
+    "Disquisitiones Arithmeticae"
+];
