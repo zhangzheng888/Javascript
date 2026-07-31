@@ -33,3 +33,14 @@ function add(bookName) {
   
   // Change code above this line
 }
+
+function remove(bookName) {
+  const book_index = bookList.indexOf(bookName);
+  if (book_index >= 0) {
+
+    bookList.splice(book_index, 1);
+    return bookList;
+
+    // Change code above this line
+    }
+}
