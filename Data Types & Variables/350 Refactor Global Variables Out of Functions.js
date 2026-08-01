@@ -37,7 +37,5 @@ function remove(bookName) {
 
     bookList.splice(book_index, 1);
     return bookList;
-
-    // Change code above this line
     }
 }
