@@ -27,11 +27,8 @@ const bookList = [
 ];
 
 function add(bookName) {
-
   bookList.push(bookName);
   return bookList;
-  
-  // Change code above this line
 }
 
 function remove(bookName) {
