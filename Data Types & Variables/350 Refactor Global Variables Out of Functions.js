@@ -26,9 +26,10 @@ const bookList = [
     "Disquisitiones Arithmeticae"
 ];
 
-function add(bookName) {
-  bookList.push(bookName);
-  return bookList;
+function add(bookName, list) {
+  const newList = [...list];
+  newList.push(bookName);
+  return newList;
 }
 
 function remove(bookName) {
