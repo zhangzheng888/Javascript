@@ -32,7 +32,7 @@ function add(bookName, list) {
   return newList;
 }
 
-function remove(bookName) {
+function remove(bookName, list) {
   const book_index = bookList.indexOf(bookName);
   if (book_index >= 0) {
 
