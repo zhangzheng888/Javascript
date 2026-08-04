@@ -33,10 +33,11 @@ function add(bookName, list) {
 }
 
 function remove(bookName, list) {
-  const book_index = bookList.indexOf(bookName);
+  const newList = [...list];
+  const book_index = list.indexOf(bookName);
+  
   if (book_index >= 0) {
-
-    bookList.splice(book_index, 1);
-    return bookList;
+    newList.splice(book_index, 1);
+    return newList;
     }
 }
