@@ -26,18 +26,17 @@ const bookList = [
     "Disquisitiones Arithmeticae"
 ];
 
-function add(bookName, list) {
+function add(list, bookName) {
   const newList = [...list];
   newList.push(bookName);
   return newList;
 }
 
-function remove(bookName, list) {
+function remove(list, bookName) {
   const newList = [...list];
-  const book_index = list.indexOf(bookName);
-  
-  if (book_index >= 0) {
-    newList.splice(book_index, 1);
+  const bookIndex = newList.indexOf(bookName);
+  if (bookIndex >= 0) {
+    newList.splice(bookIndex, 1);
     return newList;
-    }
+  }
 }
