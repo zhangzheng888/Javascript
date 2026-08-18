@@ -29,3 +29,6 @@ const users = [
 
 const names = users.map(user => user.name);
 console.log(names);
+
+// The console would display the value [ 'John', 'Amy', 'camperCat' ].
+
