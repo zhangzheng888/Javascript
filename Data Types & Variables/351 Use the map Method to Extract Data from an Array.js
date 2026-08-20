@@ -33,5 +33,8 @@ console.log(names);
 /*
 The console would display the value [ 'John', 'Amy', 'camperCat' ].
 
-The watchList array holds objects with information on several movies. Use map on watchList to assign a new array of objects to the ratings variable. Each movie in the new array should have only a title key with the name of the film, and a rating key with the IMDB rating. The code in the editor currently uses a for loop to do this, so you should replace the loop functionality with your map expression.
+The watchList array holds objects with information on several movies. Use map on watchList to assign a new array of 
+objects to the ratings variable. Each movie in the new array should have only a title key with the name of the film, 
+and a rating key with the IMDB rating. The code in the editor currently uses a for loop to do this, so you should 
+replace the loop functionality with your map expression.
 */
