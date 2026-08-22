@@ -159,3 +159,7 @@ const ratings = [];
 for (let i = 0; i < watchList.length; i++) {
   ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
 }
+
+// Only change code above this line
+
+console.log(JSON.stringify(ratings));
