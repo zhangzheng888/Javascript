@@ -152,3 +152,10 @@ const watchList = [
     "Response": "True"
   }
 ];
+
+// Only change code below this line
+
+const ratings = [];
+for (let i = 0; i < watchList.length; i++) {
+  ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
+}
