@@ -153,7 +153,6 @@ const watchList = [
   }
 ];
 
-// Only change code below this line
 
 const ratings = [];
 for (let i = 0; i < watchList.length; i++) {
