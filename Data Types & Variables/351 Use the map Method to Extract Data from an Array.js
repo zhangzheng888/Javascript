@@ -154,9 +154,14 @@ const watchList = [
 ];
 
 
-const ratings = [];
-for (let i = 0; i < watchList.length; i++) {
-  ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
-}
+const ratings = watchList.map(movie => ratings.push({
+  title: movie["Title"],
+  rating: movie["imdbRating"]
+}));
+
+// for (let i = 0; i < watchList.length; i++) {
+//   ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
+// }
+
 
 console.log(JSON.stringify(ratings));
