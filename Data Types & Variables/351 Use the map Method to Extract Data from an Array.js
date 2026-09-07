@@ -163,5 +163,14 @@ const ratings = watchList.map(movie => ratings.push({
 //   ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
 // }
 
+/*
+ratings should equal [
+{"title": "Inception", "rating": "8.8"}, 
+{"title": "Interstellar", "rating": "8.6"}, 
+{"title": "The Dark Knight", "rating": "9.0"},
+{"title": "Batman Begins", "rating": "8.3"}, 
+{"title": "Avatar", "rating": "7.9"}].
+*/
+
 
 console.log(JSON.stringify(ratings));
