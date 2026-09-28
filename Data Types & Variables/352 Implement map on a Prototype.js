@@ -15,8 +15,6 @@ the built-in map method. The Array instance can be accessed in the myMap method 
 
 Array.prototype.myMap = function(callback) {
   const newArray = [];
-  // Only change code below this line
 
-  // Only change code above this line
   return newArray;
 };
