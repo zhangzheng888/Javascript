@@ -144,3 +144,5 @@ const watchList = [
     "Response": "True"
   }
 ];
+
+const filteredList = "";
