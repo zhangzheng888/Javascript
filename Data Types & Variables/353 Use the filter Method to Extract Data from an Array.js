@@ -145,4 +145,7 @@ const watchList = [
   }
 ];
 
-const filteredList = "";
+const filteredList = watchList.filter(movie => parseFloat(movie.imdbRating) >= 8.0).map(movie => ({
+  title: movie.Title,
+  rating: movie.imdbRating
+}));
