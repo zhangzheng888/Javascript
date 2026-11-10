@@ -149,3 +149,5 @@ const filteredList = watchList.filter(movie => parseFloat(movie.imdbRating) >= 8
   title: movie.Title,
   rating: movie.imdbRating
 }));
+
+console.log(filteredList);
