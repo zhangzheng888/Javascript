@@ -151,3 +151,8 @@ const filteredList = watchList.filter(movie => parseFloat(movie.imdbRating) >= 8
 }));
 
 console.log(filteredList);
+
+// { title: "Inception", rating: "8.8" },
+// { title: "Interstellar", rating: "8.6" },
+// { title: "The Dark Knight", rating: "9.0" },
+// { title: "Batman Begins", rating: "8.3" }
