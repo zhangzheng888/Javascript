@@ -11,5 +11,8 @@ Here's an example:
 const arr = ["Cat", "Dog", "Tiger", "Zebra"];
 const newArray = arr.slice(1, 3);
 
-// newArray would have the value ["Dog", "Tiger"].
+/*
+newArray would have the value ["Dog", "Tiger"].
 
+Use the slice method in the sliceArray function to return part of the anim array given the provided beginSlice and endSlice indices. The function should return an array.
+*/
