@@ -19,8 +19,5 @@ beginSlice and endSlice indices. The function should return an array.
 */
 
 function sliceArray(anim, beginSlice, endSlice) {
-  // Only change code below this line
 
-
-  // Only change code above this line
 }
