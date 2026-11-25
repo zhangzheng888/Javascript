@@ -21,3 +21,6 @@ beginSlice and endSlice indices. The function should return an array.
 function sliceArray(anim, beginSlice, endSlice) {
 
 }
+
+const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+sliceArray(inputAnim, 1, 3);
